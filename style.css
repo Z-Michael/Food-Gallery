@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.box {
+	text-align: center;
+}
+.box p {
+	font-weight: 400;
+	font-size: medium;
+}
+nav {
+	background-color: lightgray;
+	width: 100vw;
+}
+nav h1 {
+	display: flex;
+	justify-content: flex-start;
+	margin: 0;
+	padding: 20px 0 0 20px;
+	font-family: "Nerko One", cursive;
+}
+img {
+	width: 300px;
+	height: 300px;
+
+	border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	object-fit: cover;
+	opacity: 1;
+}
+
+nav h2 {
+	font-family: "Dancing Script", cursive;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem;
+}
+.container {
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	align-items: center;
+	justify-content: center;
+}
+
+footer{
+    width: 100vw;
+    text-align: center;
+    margin-top: 2rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
