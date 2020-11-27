@@ -1,3 +1,4 @@
+
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
@@ -19,54 +20,88 @@
 		<title>Document</title>
 	</head>
 	<body>
-		<nav>
-			<h1 data-aos="fade-right">MHM Design</h1>
-			<h2 data-aos="fade-left">My Favourite Foods</h2>
-		</nav>
-		<div class="container">
-			<div class="box" data-aos="fade-right">
-				<img src="./images/one.jpg" alt="" />
-				<p>Rice with Kip</p>
-			</div>
-			<div class="box" data-aos="fade-right">
-				<img src="./images/two.jpeg" alt="" />
-				<p><i>Injera met Qey Wot</i></p>
-			</div>
-			<div class="box" data-aos="fade-right">
-				<img src="./images/three.jpg" alt="" />
-				<p>Brood met kipfilet</p>
-			</div>
-			<div class="box" data-aos="fade-right">
-				<img src="./images/four.jpg" alt="" />
-				<p>Rijst met vegi</p>
-			</div>
-			<div class="box" data-aos="fade-right">
-				<img src="./images/five.jpg" alt="" />
-				<p>Rice with vis</p>
-			</div>
-			<div class="box" data-aos="fade-left">
-				<img src="./images/six.jpg" alt="" />
-				<p>Rice with Kip</p>
-			</div>
-			<div class="box" data-aos="fade-left">
-				<img src="images/seven.jpg" alt="" />
-				<p>Ethiopië eten Genfo</p>
-			</div>
-			<div class="box" data-aos="fade-left">
-				<img src="./images/eight.jpg" alt="" />
-				<p>Injera met gebakken vlees</p>
-			</div>
-			<div class="box" data-aos="fade-left">
-				<img src="./images/nine.jpg" alt="" />
-				<p>Traditionele kipsaus</p>
-			</div>
-			<div class="box" data-aos="fade-left">
-				<img src="./images/one.jpg" alt="" />
-				<p>Rijst met vis</p>
-			</div>
-		</div>
+		<!--  Nav bar -->
+		<section>
+			<nav>
+				<h1 data-aos="fade-right">MHM Design</h1>
+				<h2 data-aos="fade-left">My Favourite Foods</h2>
+			</nav>
+		</section>
 
-		<footer>Mihretab H/Michael ©MHM Designs 2020</footer>
+		<!-- Main page -->
+		<section>
+			<div class="container">
+				<div class="box" data-aos="fade-right">
+					<img src="./images/one.jpg" alt="" />
+					<p>Rice with Kip</p>
+				</div>
+				<div class="box" data-aos="fade-left">
+					<img src="./images/two.jpeg" alt="" />
+					<p><i>Injera met Qey Wot</i></p>
+				</div>
+				<div class="box" data-aos="fade-right">
+					<img src="./images/three.jpg" alt="" />
+					<p>Brood met kipfilet</p>
+				</div>
+				<div class="box" data-aos="fade-left">
+					<img src="./images/four.jpg" alt="" />
+					<p>Rijst met vegi</p>
+				</div>
+				<div class="box" data-aos="fade-right">
+					<img src="./images/five.jpg" alt="" />
+					<p>Rice with vis</p>
+				</div>
+				<div class="box" data-aos="fade-left">
+					<img src="./images/six.jpg" alt="" />
+					<p>Rice with Kip</p>
+				</div>
+				<div class="box" data-aos="fade-right">
+					<img src="images/seven.jpg" alt="" />
+					<p>Ethiopië eten Genfo</p>
+				</div>
+				<div class="box" data-aos="fade-left">
+					<img src="./images/eight.jpg" alt="" />
+					<p>Injera met gebakken vlees</p>
+				</div>
+				<div class="box" data-aos="fade-right">
+					<img src="./images/nine.jpg" alt="" />
+					<p>Traditionele kipsaus</p>
+				</div>
+				<div class="box" data-aos="fade-left">
+					<img src="./images/one.jpg" alt="" />
+					<p>Rijst met vis</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- form -->
+		<section class="add">
+			<h4 data-aos="zoom-in"> Contact me </h4>
+			<form name="contact" method="POST" data-netlify="true"
+			 data-aos="fade-up">
+				<ul>
+					<li>
+						<label for="name">Name:</label>
+						<input type="text" id="name" name="user_name" required />
+					</li>
+					<li>
+						<label for="mail">E-mail:</label>
+						<input type="email" id="mail" name="user_email" required/>
+					</li>
+					<li>
+						<label for="msg">Message:</label>
+						<textarea id="msg" name="user_message" maxlength="200" required></textarea>
+					</li>
+				</ul>
+				<li class="button">
+					<button type="submit">Send your message</button>
+				  </li>
+			</form>
+		</section>
+  
+		<section>
+			<footer>Mihretab H/Michael ©MHM Designs 2020</footer>
+		</section>
 
 		<script
 			src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
