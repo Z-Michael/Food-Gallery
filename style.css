@@ -33,7 +33,7 @@ h1 {
 	gap: 2rem;
 	align-items: center;
 	justify-content: center;
-	background: rgb(237, 243, 240);
+	background: rgb(248, 250, 249);
 }
 .box {
 	margin-top: 15px;
@@ -44,6 +44,7 @@ h1 {
 	font-weight: 700;
 	font-size: large;
 	text-align: center;
+	padding-top: 10px;
 	color: crimson;
 }
 
@@ -58,32 +59,33 @@ img {
 
 /*  form */
 .add {
+	margin: 2rem;
 	width: 100vw;
-	height: 75vh;
+	height: 80vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: rgb(234, 233, 236);
+	background-color: rgba(231, 210, 214, 0.068);
 }
 .add h4{
 	color: rgb(12, 1, 1);
-	margin-bottom: 3rem;
+	margin-bottom: 1rem;
 	font-size: x-large;
 	font-family: monospace;
 
 }
 form {
-	background-color: rgb(230, 227, 221);
-	margin: 0 auto;
+	background-color: rgb(221, 193, 138);
+	margin-bottom: 3rem;
 	width: 500px;
 
 	text-align: center;
 	padding: 1em;
 	border: 1px solid #ccc;
 	border-radius: 1em;
-	margin-top: 3rem;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+	box-shadow: 0 4px 8px 0 rgba(108, 185, 230, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 ul {
@@ -151,4 +153,35 @@ footer {
 	text-align: center;
     background-color: rgba(0, 0, 0, 0.2);
 	padding: 10px;
+}
+
+/* Media Query */
+@media only screen and (max-width: 768px) {
+	form {
+	width: 250px;
+		
+	margin-bottom: 10rem;
+	text-align: center;
+	
+	}
+	input, textarea{
+		width: 200px;
+	
+		text-align: center;
+	}
+	.button{
+		
+		padding-left: 5px;
+		
+	}
+	Button{
+	 padding: 8px 10px;
+	 color: rgb(243, 226, 226);
+	}
+.add{
+	height: 600px;
+}
+.add h4{
+	margin-bottom: 3rem;
+}
 }
