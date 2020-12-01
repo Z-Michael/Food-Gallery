@@ -75,8 +75,8 @@ img {
 }
 .add h4 {
 	color: rgb(23, 116, 72);
-	margin-bottom: 1rem;
-	margin-left:-4rem ;
+	margin-bottom: 3rem;
+	margin-right:1rem ;
 	font-size: x-large;
 	font-family: monospace;
 }
@@ -192,5 +192,6 @@ footer {
 	}
 	.add h4 {
 		margin-bottom: 3rem;
+		margin-left: -2.6rem;
 	}
 }
